@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+    <head>
+    <titlle>Tablas en html</titlle>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+    </head>
+    <body>
+        <header> 
+        <h1>TABLAS EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li> <a href="lista.html">Listas</a></li>
+		<li><a href="enlaces.html">Enlaces</a></li>
+        <li><a href="tablas.html">Tablas</a></li>
+        <li><a href="imagenes.html">Imágenes</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="formularios.html">Formulario</a></li>
+         </ul>
+        </nav>
+        <main> 
+        <section>
+            <h2>Tabla simple con separación de bordes de celda (libros favoritos) </h2>
+            <p>A mí me gusta mucho leer, me parece una actividad de lo más entretenido, me encanta sumergirme en una buena historia, aprender y sentir emociones que son difíciles de explicar. He leído desde que soy pequeña, por lo que tengo autores favoritos al igual que libros, aquí en la tabla se muestran algunos de mis libros favoritos con algunos datos:</p>
+            <table border="1">
+            <thead>
+                 <tr>
+                <td>Título</td>
+                <td>Autor</td>
+                <td>Año</td>
+                <td>Género</td>
+                <td>Subgénero</td>
+                </tr>
+                </thead>
+            <tbody>
+        <tr>
+            <td>Orgullo y Prejuicio</td> 
+            <td>Jane Austen</td>
+            <td>1813</td>
+            <td>Novela</td>
+            <td>Comedia romántica</td>
+                </tr>
+                  <tr>
+            <td>El libro del cementerio</td> 
+            <td>Neil Gaiman</td>
+            <td>2008</td>
+            <td>Novela</td>
+            <td>Fantasía</td>
+                </tr>
+                 <tr>
+            <td>El Principito</td> 
+            <td>Antoine de Saint-Exupéry</td>
+            <td>1943</td>
+            <td>Novela</td>
+            <td>Novela infantil</td>
+                </tr>
+                 <tr>
+            <td>Los siete maridos de Evelyn Hugo</td> 
+            <td>Taylor Jenkins Reid</td>
+            <td>2017</td>
+            <td>Novela</td>
+            <td>Novela de ficción histórica</td>
+                </tr>
+                 <tr>
+            <td>Persona normal</td> 
+            <td>Benito Taibo</td>
+            <td>2011</td>
+            <td>Novela</td>
+            <td>Novela de ficción</td>
+                </tr>
+                 <tr>
+            <td>Una educación</td> 
+            <td>Tara Westover</td>
+            <td>2018</td>
+            <td>Biografía</td>
+            <td>Autobiografía</td>
+                </tr>
+                </tbody>
+            <tfoot></tfoot>
+            </table>
+            </section>
+            <section>
+                <h2>Tabla modificada por clase y con uso de colspan (libros de Jane Austen) </h2>
+            <p>Una de mis autoras favoritas es Jane Austen, me encanta su forma de escribir y narrar historias, con su sentido del humor tan gracioso para mí, al mismo tiempo que hace críticas hacia la sociedad de esos años que hoy en día pueden tener  validez, volviéndose atemporal y sus novelas clásicos de la literatura. Además, en cada novela hace exploración de las emociones del ser humano muy interesante, siendo más que historias de romance. Por lo anterior, he leído todas la novelas de esta autora, en la siguiente tabla se muestran las novelas con algunos datos:</p>
+                <table border="1"  class="tabla1">
+            <thead>
+                 <tr>
+                <td>Título</td>
+                <td>Año</td>
+                <td>Género</td>
+                 <td colspan="2">Protagonistas</td>
+                <td>Subgénero</td>
+                </tr>
+                </thead>
+            <tbody>
+        <tr>
+            <td>Orgullo y Prejuicio</td> 
+            <td>1813</td>
+            <td>Novela</td>
+			<td>Elizabeth Bennet</td>
+			<td>Fitzwilliam Darcy</td>
+            <td>Comedia romántica</td>
+                </tr>
+                  <tr>
+            <td>Emma</td> 
+            <td>1815</td>
+            <td>Novela</td>
+            <td>Emma Woodhouse </td>
+                      <td>George Knightley</td>
+            <td>Comedia romántica</td>
+                </tr>
+                 <tr>
+            <td>Sentido y sensibilidad</td> 
+            <td>1811</td>
+            <td>Novela</td>
+            <td>Elinor Dashwood</td>
+            <td>Marianne Dashwood</td>
+            <td>Novela rosa</td>
+                </tr>
+                 <tr>
+            <td>Persuasión</td> 
+            <td>1816</td>
+            <td>Novela</td>
+            <td>Anne Elliot</td>
+            <td>Frederick Wentworth</td>
+            <td>Novela romántica de drama</td>
+                </tr>
+                 <tr>
+            <td>La abadía de Northanger</td> 
+            <td>1803</td>
+            <td>Novela</td>
+            <td>Catherine Morland</td>
+                <td>Henry Tilney</td>
+            <td>Novela romántica satírica</td>
+                </tr>
+                 <tr>
+            <td>Mansfield Park</td> 
+            <td>1814</td>
+            <td>Novela</td>
+            <td>Fanny Price</td>
+                     <td>Henry Crawford</td>
+            <td>Novela rosa</td>
+                </tr>
+                </tbody>
+            <tfoot></tfoot>
+            </table>
+            </section>
+            <section>
+                <h2>Tabla Zebra (libros escritos por mujeres) </h2>
+             <p>En los últimos años he decidido leer más literatura escrita por mujeres y me he llevado grandes sorpresas, ya que he conectado con varias historias y autoras de una forma que no había imaginado. Me ha parecido interesante darle espacio a mi librero a mujeres de siglos pasados y actuales que se han atrevido a contar lo que tienen que decir. A continuación en la tabla presento mis libros favoritos escritos por mujeres: </p>
+                <table border="1" id="tabla2">
+            <thead>
+                 <tr>
+                <td>Título</td>
+                <td>Autora</td>
+                <td>Año</td>
+                <td>Género</td>
+                <td>Subgénero</td>
+                </tr>
+                </thead>
+            <tbody>
+        <tr>
+            <td>Una habitación propia</td> 
+            <td>Virginia Woolf</td>
+            <td>1929</td>
+            <td>Ensayo</td>
+            <td>Ensayo feminista</td>
+                </tr>
+                  <tr>
+            <td>Ciudad de mujeres</td> 
+            <td>Elizabeth Gilbert</td>
+            <td>2019</td>
+            <td>Novela</td>
+            <td>Ficción histórica</td>
+                </tr>
+                 <tr>
+            <td>Cumbres Borrascosas</td> 
+            <td>Emily Brontë</td>
+            <td>1847</td>
+            <td>Novela</td>
+            <td>Novela gótica</td>
+                </tr>
+                 <tr>
+            <td>Jane Eyre</td> 
+            <td>Charlotte Brontë</td>
+            <td>1847</td>
+            <td>Novela</td>
+            <td>Novela romántica gótica</td>
+                </tr>
+                 <tr>
+            <td>Los dos amores de mi vida</td> 
+            <td>Taylor Jenkins Reid</td>
+            <td>2016</td>
+            <td>Novela</td>
+            <td>Novela de ficción romántica</td>
+                </tr>
+                 <tr>
+            <td>Los juegos del hambre: En llamas</td> 
+            <td>Suzanne Collins</td>
+            <td>2009</td>
+            <td>Novela</td>
+            <td>Distopia, ficción</td>
+                </tr>
+                </tbody>
+            <tfoot></tfoot>
+            </table>
+            </section>
+            <section>
+                <h2>Tabla Hover (libros de ficción histórica) </h2>
+                <p>Además de lo que ya dije anteriormente acerca de mis gustos literarios, debo agregar que me gusta mucho leer ficción histórica, me parece una forma muy interesante de acercarte a ciertos hechos históricos, generando una empatía diferente a la vez que puedes analizar diferentes puntos de vista de un solo hecho. Durante o después de la lectura investigo cosas reales del tema y/o acontecimiento, me parece un subgénero que puede tener de todo un poco. En la siguiente tabla muestro mis novelas históricas favoritas con algunos datos de ellas: </p>
+                 <table border="1" id="tabla3">
+            <thead>
+                 <tr>
+                <td>Título</td>
+                <td>Autor</td>
+                <td>Hecho histórico</td>
+                <td>Año de publicación</td>
+                <td>Idioma original</td>
+                </tr>
+                </thead>
+            <tbody>
+        <tr>
+            <td>Los Miserables</td> 
+            <td>Victor Hugo</td>
+            <td>Post- Revolución francesa</td>
+            <td>1862</td>
+            <td>Frances</td>
+                </tr>
+                  <tr>
+            <td>El Ruiseñor</td> 
+            <td>Kristin Hannah</td>
+            <td>Segunda Guerra Mundial</td>
+            <td>2015</td>
+            <td>Inglés</td>
+                </tr>
+                 <tr>
+            <td>Patria</td> 
+            <td>Fernando Aramburu</td>
+            <td>Hechos de terrorismo del grupo ETA</td>
+            <td>2016</td>
+            <td>Español</td>
+                </tr>
+                 <tr>
+            <td>La ladrona de libros</td> 
+            <td>Markus Zusak</td>
+            <td>Segunda Guerra Mundial</td>
+            <td>2005</td>
+            <td>Inglés</td>
+                </tr>
+                 <tr>
+            <td>El código rosa</td> 
+            <td>Kate Quinn</td>
+            <td>Segunda Guerra Mundial</td>
+            <td>2022</td>
+            <td>Inglés</td>
+                </tr>
+                 <tr>
+            <td>El murmullo de las abejas</td> 
+            <td>Sofía Segovia</td>
+            <td>2015</td>
+            <td>Revolución Mexicana</td>
+            <td>Español</td>
+                </tr>
+                </tbody>
+            <tfoot></tfoot>
+            </table>
+            </section>
+             <section style="overflow-x: auto;">
+                <h2>Tabla con Overflow (adaptaciones de libro a película) </h2>
+                <p>Varios de los libros que he ledo y me han gustado mucho tienen adaptación al cine, o bien, a la pantalla por medio de series. Hay algunas muy buenas y otras que han sido una decepción, debido a que una buena adaptación capta la esencia del libro, haciendo aun los cambios necesarios para lograrlos. En la siguiente tabla enlisto las mejores adaptaciones que considero se han hecho de los libros que he leído: </p>
+                  <table border="1" id="tabla1" class="tabla1">
+            <thead>
+                 <tr>
+                <td>Libro</td>
+                <td>Autor</td>
+                <td>Director</td>
+                <td colspan="2">Año de publicación/estreno</td>
+                <td>Género</td>
+                </tr>
+                </thead>
+            <tbody>
+        <tr>
+            <td>Las ventajas de ser invisible</td> 
+            <td>Stephen Chbosky</td>
+            <td>Stephen Chbosky</td>
+            <td>1999</td>
+            <td>2012</td>
+            <td>Drama joven adulto</td>
+                </tr>
+                  <tr>
+            <td>Orgullo y Prejuicio</td> 
+            <td>Jane Austen</td>
+            <td>Joe Wright</td>
+            <td>1813</td>
+                      <td>2005</td>
+            <td>Drama y romance</td>
+                </tr>
+                 <tr>
+            <td>Los Miserables</td> 
+            <td>Victor Hugo</td>
+            <td>Tom Hooper</td>
+            <td>1862</td>
+            <td>2012</td>
+            <td>Musical histórico</td>
+                </tr>
+                 <tr>
+            <td>Bajo la misma estrella</td> 
+            <td>John Green</td>
+            <td>Josh Boone</td>
+            <td>2012</td>
+            <td>2014</td>
+            <td>Drama y comedia</td>
+                </tr>
+                 <tr>
+            <td>Mujercitas</td> 
+            <td>Louisa May Alcott</td>
+            <td>Greta Gerwig</td>
+            <td>1868</td>
+                <td>2019</td>
+            <td>Drama y romance</td>
+                </tr>
+                 <tr>
+            <td>Donde termina el arcoiris</td> 
+            <td>Cecelia Ahern</td>
+            <td>Christian Ditter</td>
+            <td>2004</td>
+                     <td>2014</td>
+            <td>Drama y romance</td>
+                </tr>
+                </tbody>
+            <tfoot>   
+                      </tfoot>
+            </table>
+            </section>
+        </main>
+        <footer>
+        <h5>Elaborado por:Ingrid Quintero</h5>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<body>
+<header>
+	<h1>FORMULARIOS EN HTMLl</h1>
+</header>
+		<nav>
+			 <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li> <a href="lista.html">Listas</a></li>
+		<li><a href="enlaces.html">Enlaces</a></li>
+        <li><a href="tablas.html">Tablas</a></li>
+        <li><a href="imagenes.html">Imágenes</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="formularios.html">Formulario</a></li>
+         </ul>
+		</nav>
+		<main>
+			<section>
+				<h2>Formulario de ingreso</h2>
+				<p>Imagina que te unes a mi página web, en donde si te interesaron mis gustos y temas de interés podremos conversar e intercambiar recomendaciones. Crea un usuario y una contraseña, puede ser lo que tú quieras, y no estás comprometido a nada, es solo una simulación ¡Muchas gracias! </p>
+				<form id="form1" name="form1" method="get">
+					<label for="textfield">USUARIO</label>
+					<input type="text" name="textfield" id="textfield">
+					<label for="password">CONTRASEÑA</label>
+					<input type="password" name="password" id="password">
+					<input type="submit" name="submit" id="submit" value="Enviar">
+				</form>
+			</section>
+			<section>
+				<h2>Formulario 2</h2>
+				<p>Después de leer un poco de mí, me gustaría saber un poco de ti por medio de este pequeño cuestionario, como tu nombre, edad, de qué país eres. De este modo podre conocer quien me lee del otro lado, y no sentir que le hablo a la nada, no te tomas mucho tiempo, espero puedas hacerlo ¡muchas gracias!</p>
+				
+				<form id="form2" name="form2" method="get">
+				  <label for="textfield2">NOMBRES</label>
+                  <input type="text" name="textfield2" id="textfield2">
+				<label for="textfield3"><br>
+				  APELLIDOS:</label>
+                <input type="text" name="textfield3" id="textfield3">
+                <label for="edad">EDAD:</label>
+                <input name="edad" type="number" id="edad" min="18">
+                <label for="select"><br>
+                  PAÍS:</label>
+                <select name="select" id="select">
+                  <option value="argentina">ARGENTINA</option>
+                  <option value="bolivia">BOLIVIA</option>
+                  <option value="colombia">COLOMBIA</option>
+                  <option value="mexico">MÉXICO</option>
+                  <option value="italia">ITALIA</option>
+                  <option value="francia">FRANCIA</option>
+                  <option value="Canada">CANADA</option>
+                </select>
+                <p>
+                  <label>GÉNERO:&nbsp;</label>
+                  <label>
+                    <input type="radio" name="GENERO" value="femenino" id="GENERO_0">
+                    FEMENINO</label>
+                  <br>
+                  <label>
+                    <input type="radio" name="GENERO" value="masculino" id="GENERO_1">
+                    MASCULINO</label>
+                  <br>
+                </p>
+					<label>GÉNERO MUSICAL QUE PREFIERES:&nbsp;</label>
+					<p>
+					 <label>
+				    <input type="checkbox" name="MÚSICA" value="pop" id="MUacuteSICA_0">
+				    POP</label>
+				  <br>
+				  <label>
+				    <input type="checkbox" name="MÚSICA" value="rock" id="MUacuteSICA_1">
+				    ROCK</label>
+				  <br>
+				  <label>
+				    <input type="checkbox" name="MÚSICA" value="jazz" id="MUacuteSICA_2">
+				    JAZZ</label>
+				  <br>
+				  <label>
+				    <input type="checkbox" name="MÚSICA" value="alternativa" id="MUacuteSICA_3">
+				    ALTERNATIVA</label>
+				  <br>
+				  <label>
+				    <input type="checkbox" name="MÚSICA" value="clásica" id="MUacuteSICA_4">
+				    CLÁSICA</label>
+				  <br>
+					</p>
+<input type="submit" name="submit2" id="submit2" value="Enviar">
+              </form>
+</section>
+			<section>
+				<h2>Formulario 3 </h2>
+				<p>Por último te tengo este cuestionario, en donde me gustaría conocer más acercad e tus gustos y preferencias, te pregunto tu color favorito porque el mío, como podrás haber notado es el rosa, además, soy muy fan de lo dulce y los postres. Por último, me gustaría saber cuáles son tus hobbies y si compartimos alguno, como leer o tal vez también te guste ir al cine. Espero la puedas contestar, no toma mucho tiempo ¡muchas gracias!</p>
+				<form id="form3" name="form3" method="post">
+				  <label for="textfield4">1. NOMBRE:</label>
+                  <input type="text" name="textfield4" id="textfield4">
+                  <label for="number">2. EDAD&nbsp;</label>
+                  <input name="number" type="number" id="number" max="100" min="15">
+                  <label for="date">3. CUMPLEAÑOS:</label>
+                  <input name="date" type="date" id="date" max="2025-01-01" min="1900-01-01">
+                  <label for="color">4. SELECCCIONA TU COLOR FAVORITO:</label>
+                  <input type="color" name="color" id="color">
+                  <label for="email">5. TU CORREO ELECTRÓNICO:</label>
+                  <input type="email" name="email" id="email">
+                  <label>6. CUÁL POSTRE PREFIERES:</label>
+                  <p>
+                    <label>
+                      <input type="radio" name="POSTRES " value="flan" id="POSTRES_0">
+                    FLAN</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="POSTRES " value="gelatina" id="POSTRES_1">
+                      GELATINA</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="POSTRES " value="pastel" id="POSTRES_2">
+                      PASTEL</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="POSTRES " value="cheesecake" id="POSTRES_3">
+                      CHEESECAKE</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="POSTRES " value="tarta" id="POSTRES_4">
+                      TARTA</label>
+                    <br>
+                  </p>
+				  <label for="select2">7. QUÉ DULCE TE GUSTA MÁS:</label>
+                  <select name="select2" id="select2">
+                    <option value="gomitas dulces">GOMITAS DULCES</option>
+                      <option value="gomitas picantes">GOMITAS PICANTES</option>
+                      <option value="chocolate con leche">CHOCOLATE CON LECHE</option>
+                      <option value="chocolate blanco">CHOCOLATE BLANCO</option>
+                      <option value="caramelos">CARAMELOS </option>
+				  </select>
+                  <p>
+                    <label>8. QUÉ ACTIVIDADES HACES AL MENOS 1 VEZ A LA SEMANA&nbsp;</label>
+                    <label>
+                      <input type="checkbox" name="PASATIEMPOS" value="casilla de verificación " id="PASATIEMPOS_0">
+                      LEER</label>
+                    <br>
+                    <label>
+                      <input type="checkbox" name="PASATIEMPOS" value="casilla de verificación " id="PASATIEMPOS_1">
+                      PINTAR</label>
+                    <br>
+                    <label>
+                      <input type="checkbox" name="PASATIEMPOS" value="casilla de verificación " id="PASATIEMPOS_2">
+                      VER SERIES/PELIS</label>
+                    <br>
+                    <label>
+                      <input type="checkbox" name="PASATIEMPOS" value="casilla de verificación " id="PASATIEMPOS_3">
+                      HACER DEPORTE</label>
+                    <br>
+                    <label>
+                      <input type="checkbox" name="PASATIEMPOS" value="casilla de verificación " id="PASATIEMPOS_4">
+                      SALIR DE COMPRAS</label>
+                    <label for="url">9. COLOCA EL LINK DE TU VIDEO MUSICAL FAVORITO:</label>
+                    <input type="url" name="url" id="url">
+                    <label for="range">10. QUÉ TANTO DE GUSTA IR AL CINE :</label>
+                    <input name="range" type="range" id="range" max="10" min="1">
+                    <input type="submit" name="submit3" id="submit3" value="Enviar">
+                    <label>11. SI QUIERES CONOCER MIS PELÍCULAS FAVORITAS DA CLICK EN LA IMAGEN&nbsp;</label>
+                    <input name="imageField" type="image" id="imageField" formaction="imagenes.html" src="imagenesinter/singstreet2.jpg" width="300">
+<br>
+                  </p>
+              </form>
+			</section>
+		</main>
+		<footer>
+		  <h5>Elaborado por: Ingrid Quintero</h5>
+		</footer>
+	</body>
+</html>
